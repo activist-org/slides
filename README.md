@@ -14,7 +14,8 @@ Suggestions for how to improve the content of these slides are more than welcome
 
 ## **Contents**
 
-- WIP
+- [i18n-check](https://github.com/activist-org/slides/tree/main/i18n_check)
+  - Check i18n/L10n keys and values
 
 ## Building Slides
 
