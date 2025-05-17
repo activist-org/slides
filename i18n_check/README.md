@@ -2,6 +2,6 @@
 
 Check i18n/L10n keys and values.
 
-<!-- ### Presentations
+### Presentations
 
-- 2025/X/Y: NAME_OF_EVENT ([commit hash](commit_url)) -->
+- 2025/X/Y: NAME_OF_EVENT

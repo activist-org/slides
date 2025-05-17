@@ -1,6 +1,5 @@
 ---
-theme: seriph
-# background: https://cover.sli.dev
+theme: default
 title: i18n-check
 info: |
   ## i18n-check presentation
@@ -13,8 +12,6 @@ hideInToc: true
 
 # i18n-check
 
+<div class="pt-3">
 Check i18n/L10n keys and values
-
-<!--
-Slide notes.
--->
+</div>

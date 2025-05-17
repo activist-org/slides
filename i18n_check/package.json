@@ -1,10 +1,13 @@
 {
-  "name": "oss_community_building",
+  "name": "i18n_check",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev --open --port 3000",
     "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.6.0"
   }
 }
