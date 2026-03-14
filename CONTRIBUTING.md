@@ -10,13 +10,13 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Contents
 
-- [Tech stack](#tech-stack-)
-- [Learning the tech stack](#learning-the-tech-)
-- [Development environment](#dev-env-)
-- [Issues](#issues-)
-- [Bug reports](#bug-reports-)
-- [Feature requests](#feature-requests-)
-- [Pull requests](#pull-requests-)
+- [Tech stack](#tech-stack)
+- [Learning the tech stack](#learning-the-tech)
+- [Development environment](#development-environment)
+- [Issues](#issues)
+- [Bug reports](#bug-reports)
+- [Feature requests](#feature-requests)
+- [Pull requests](#pull-requests)
 
 ## Tech Stack
 
