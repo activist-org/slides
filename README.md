@@ -14,8 +14,8 @@ Suggestions for how to improve the content of these slides are more than welcome
 
 ## **Contents**
 
-- [Developer Tools](https://github.com/activist-org/slides/tree/main/developer_tools)
-  - The tools that the activist community has written to support development
+- [i18n-check](https://github.com/activist-org/slides/tree/main/i18n_check)
+  - Presenting the [i18n-check](https://github.com/activist-org/i18n-check) project activist uses for i18n key-value validation
 
 ## Building Slides
 
