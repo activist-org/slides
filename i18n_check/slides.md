@@ -13,7 +13,7 @@ hideInToc: true
 # i18n-check
 
 <div class="pt-3">
-i18n key-value validation
+Internationalization (i18n) key-value validation
 </div>
 <div class="flex flex-justify-center">
 <img class="pt-6" src="/i18nCheckQRCodeWhite.png" width=136 alt="QR Code for i18n-check">
@@ -32,7 +32,10 @@ hideInToc: true
 # Purpose
 
 - The [activist.org community](https://github.com/activist-org) has a very broad need for i18n/L10n support
-- We use [Weblate](https://weblate.org/) for localization ([see project](https://hosted.weblate.org/projects/activist/activist/))
+- Example localization JSON files:
+  - `en.json` : `{"btn_add": "Add", "btn_remove": "Remove"}`
+  - `es.json`: `{"btn_add": "Añadir", "btn_remove": "Eliminar"}`
+  - `de.json`: `{"btn_add": "Hinzufügen", "btn_remove": "Entfernen"}`
 - How does the development team confidently work while making sure to not break localizations?
   - We need pre-commit/[prek](https://github.com/j178/prek) based checks that are mirrored in CI
   - See our [.pre-commit-config.yaml](https://github.com/activist-org/activist/blob/main/.pre-commit-config.yaml) and [ci_i18n_check.yaml](https://github.com/activist-org/activist/blob/main/.github/workflows/ci_i18n_check.yaml)
@@ -52,7 +55,7 @@ hideInToc: true
   - Robustly tested with [pytest](https://docs.pytest.org/en/stable/), validated with [ty](https://docs.astral.sh/ty/) and simplified with [complexipy](https://github.com/rohaquinlop/complexipy)
   - Fully documented in the [repo](https://github.com/activist-org/i18n-check) and on [Read the Docs](https://i18n-check.readthedocs.io/en/latest/)
 - Checks are configured via an `.i18n-check.yaml` file ([view example](https://github.com/activist-org/i18n-check/blob/main/.i18n-check.yaml))
-- 12 checks, with many including `--fix` options
+- 12 checks, with many including `--fix` options for automatic corrections
 
 ## Basics
 
