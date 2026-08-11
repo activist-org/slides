@@ -6,4 +6,4 @@
 
 ### Presentations
 
-- 2026/X/Y: NAME_OF_EVENT
+- 2026/8/11: [Vue.js Berlin Hack'n'Tell Edition](https://vuejs.berlin/events/2026-08-vuejs-berlin-hackntell.html)
