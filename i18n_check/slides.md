@@ -32,7 +32,7 @@ hideInToc: true
 # Purpose
 
 - The [activist.org community](https://github.com/activist-org) has a very broad need for i18n/L10n support
-- Example localization JSON files:
+- Simple example localization JSON files:
   - `en.json` : `{"btn_add": "Add", "btn_remove": "Remove"}`
   - `es.json`: `{"btn_add": "Añadir", "btn_remove": "Eliminar"}`
   - `de.json`: `{"btn_add": "Hinzufügen", "btn_remove": "Entfernen"}`
@@ -136,12 +136,12 @@ title: Checks
 
 # Checks - 1/6
 
-## `key-formatting` (`kf`)
+## `--key-formatting` (`-kf`)
 
 - Does the source file contain keys that don't follow the required formatting rules?
 - Includes `--fix` to fix formatting automatically
 
-## `key-naming` (`kn`)
+## `--key-naming` (`-kn`)
 
 - Are key names consistent with how and where they are used in the codebase?
 - Includes `--fix` to rename keys automatically
@@ -154,12 +154,12 @@ hideInToc: true
 
 # Checks - 2/6
 
-## `nonexistent-keys` (`nk`)
+## `--nonexistent-keys` (`-nk`)
 
 - Does the codebase include i18n keys that are not within the source file?
 - Includes `--fix` to add keys interactively
 
-## `unused-keys` (`uk`)
+## `--unused-keys` (`-uk`)
 
 - Does the source file have keys that are not used in the codebase?
 - Includes `--delete` to delete unused keys automatically
@@ -172,12 +172,12 @@ hideInToc: true
 
 # Checks - 3/6
 
-## `non-source-keys` (`nsk`)
+## `--non-source-keys` (`-nsk`)
 
 - Do the target locale files have keys that are not in the source file?
 - Includes `--delete` to delete non-source keys automatically
 
-## `repeat-keys` (`rk`)
+## `--repeat-keys` (`-rk`)
 
 - Do any of localization files have repeat keys?
 
@@ -189,11 +189,11 @@ hideInToc: true
 
 # Checks - 4/6
 
-## `repeat-values` (`rv`)
+## `--repeat-values` (`-rv`)
 
 - Does the source file have repeat values that can be combined into a single key?
 
-## `sorted-keys` (`sk`)
+## `--sorted-keys` (`-sk`)
 
 - Are the i18n source and target locale files sorted alphabetically?
 - Includes `--fix` to sort keys automatically
@@ -206,12 +206,12 @@ hideInToc: true
 
 # Checks - 5/6
 
-## `nested-files` (`nf`)
+## `--nested-files` (`-nf`)
 
 - Do the i18n files contain nested JSON structures? (warning)
 - Includes `--fix` to flatten JSON files automatically
 
-## `missing-keys` (`mk`)
+## `--missing-keys` (`-mk`)
 
 - Are any keys from the source file missing in the locale files?
 - Includes `--fix --locale ENTER_ISO_2_CODE` to add missing keys interactively
@@ -224,12 +224,12 @@ hideInToc: true
 
 # Checks - 6/6
 
-## `aria-labels` (`al`)
+## `--aria-labels` (`-al`)
 
 - For both LTR and RTL languages, do keys that end in `_aria_label` end in punctuation?
 - Includes `--fix` to remove punctuation automatically
 
-## `alt-texts` (`at`)
+## `--alt-texts` (`-at`)
 
 - For both LTR and RTL languages, are keys that end in `_alt_text` missing proper punctuation?
 - Includes `--fix` to add periods automatically
