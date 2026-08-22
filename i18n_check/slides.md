@@ -74,7 +74,7 @@ i18n-check -CHECK_ID
 # Configuration
 
 ```yaml
-src-dir: frontend
+src-dirs: [frontend]
 i18n-dir: frontend/i18n
 i18n-src: frontend/i18n/en.json
 file-types-to-check: [.ts, .js] # .vue, .svelte, .jsx
