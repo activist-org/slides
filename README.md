@@ -12,12 +12,19 @@ This repo contains various presentations for activist community projects. The sl
 
 Suggestions for how to improve the content of these slides are more than welcome! ✨ Edits will mainly be made in the corresponding `slides.md` file for each presentation. Please see the [contributing guide](CONTRIBUTING.md) if you'd like to help.
 
-## **Contents**
+## Contents
 
 - [i18n-check](https://codeberg.org/activist-org/slides/src/branch/main/i18n_check)
   - Presenting the [i18n-check](https://github.com/activist-org/i18n-check) project activist uses for i18n key-value validation
 
-## Building Slides
+## Running Slides
+
+### Prerequisites
+
+1. [Node.js](https://nodejs.org): latest v20+ recommended
+2. [Yarn](https://yarnpkg.com/): latest v4+, which will be activated automatically via [Corepack](https://yarnpkg.com/getting-started/qa#using-corepack)
+
+### Building Slides
 
 First clone this repository or your fork:
 
