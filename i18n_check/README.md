@@ -1,4 +1,4 @@
-# [i18n-check](https://github.com/activist-org/slides/tree/main/i18n_check)
+# [i18n-check](https://codeberg.org/activist-org/slides/src/branch/main/i18n_check)
 
 ### The project activist uses for i18n key-value validation
 
