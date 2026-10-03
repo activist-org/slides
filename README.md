@@ -12,6 +12,10 @@ This repo contains various presentations for activist community projects. The sl
 
 Suggestions for how to improve the content of these slides are more than welcome! ✨ Edits will mainly be made in the corresponding `slides.md` file for each presentation. Please see the [contributing guide](CONTRIBUTING.md) if you'd like to help.
 
+## Maintenance
+
+This project is maintained at [codeberg.org/activist-org/slides](https://codeberg.org/activist-org/slides). Please visit this remote repository for issues and pull requests.
+
 ## Contents
 
 - [i18n-check](https://codeberg.org/activist-org/slides/src/branch/main/i18n_check)
