@@ -4,8 +4,9 @@ title: i18n-check
 info: |
   ## i18n-check presentation
   The project activist uses for i18n key-value validation
-class: text-center mt-6
-transition: slide-left
+layout: cover
+class: text-center
+transition: none
 mdc: true
 hideInToc: true
 ---
@@ -51,7 +52,7 @@ hideInToc: true
 ## Architecture
 
 - Written in Python using [argparse](https://docs.python.org/3/library/argparse.html) (default library)
-  - Texts of files are read and parsed (no ast)
+  - Texts of files are read and parsed (no AST needed)
   - Robustly tested with [pytest](https://docs.pytest.org/en/stable/), validated with [ty](https://docs.astral.sh/ty/) and simplified with [complexipy](https://github.com/rohaquinlop/complexipy)
   - Fully documented in the [repo](https://github.com/activist-org/i18n-check) and on [Read the Docs](https://i18n-check.readthedocs.io/en/latest/)
 - Checks are configured via an `.i18n-check.yaml` file ([view example](https://github.com/activist-org/i18n-check/blob/main/.i18n-check.yaml))
@@ -97,7 +98,7 @@ checks:
 
 # Conventions
 
-## Rules
+## Default Rules
 
 - All keys must begin with `i18n.`
 - The base path must be the file path where the key is used (multiple -> lowest common with `_global`)
@@ -136,15 +137,15 @@ title: Checks
 
 # Checks - 1/6
 
-## `--key-formatting` (`-kf`)
-
-- Does the source file contain keys that don't follow the required formatting rules?
-- Includes `--fix` to fix formatting automatically
-
 ## `--key-naming` (`-kn`)
 
 - Are key names consistent with how and where they are used in the codebase?
 - Includes `--fix` to rename keys automatically
+
+## `--key-formatting` (`-kf`)
+
+- Does the source file contain keys that don't follow the required formatting rules?
+- Includes `--fix` to fix formatting automatically
 
 <div id="progress" class="w-6/12"/>
 
@@ -162,7 +163,7 @@ hideInToc: true
 ## `--unused-keys` (`-uk`)
 
 - Does the source file have keys that are not used in the codebase?
-- Includes `--delete` to delete unused keys automatically
+- Includes `--delete` to delete unused keys automatically in all i18n files
 
 <div id="progress" class="w-7/12"/>
 
@@ -175,7 +176,7 @@ hideInToc: true
 ## `--non-source-keys` (`-nsk`)
 
 - Do the target locale files have keys that are not in the source file?
-- Includes `--delete` to delete non-source keys automatically
+- Includes `--delete` to delete non-source keys automatically in all locale files
 
 ## `--repeat-keys` (`-rk`)
 
@@ -192,6 +193,7 @@ hideInToc: true
 ## `--repeat-values` (`-rv`)
 
 - Does the source file have repeat values that can be combined into a single key?
+- Suggests a common key that the value can be saved to
 
 ## `--sorted-keys` (`-sk`)
 
