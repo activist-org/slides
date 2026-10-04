@@ -16,7 +16,7 @@ hideInToc: true
 Internationalization (i18n) key-value validation
 </div>
 <div class="flex flex-justify-center">
-<img class="pt-6" src="/i18nCheckQRCodeWhite.png" width=136 alt="QR Code for i18n-check">
+<img class="pt-6" src="/i18n_check_repo_qr_code.png" width=136 alt="QR Code for i18n-check">
 </div>
 
 ---
@@ -119,11 +119,11 @@ checks:
 
 <div class="flex justify-center space-x-24 py-6">
   <div class="flex flex-col items-center">
-   <img src="/i18nCheckAllPass.gif" class="h-64" alt="GIF that shows all i18n-check checks passing"/>
+   <img src="/i18n_check_all_pass.gif" class="h-64" alt="GIF that shows all i18n-check checks passing"/>
    <p>All checks pass</p>
   </div>
   <div class="flex flex-col items-center">
-    <img src="/i18nCheckAllFail.gif" class="h-64" alt="GIF that shows all i18n-check checks failing"/>
+    <img src="/i18n_check_all_fail.gif" class="h-64" alt="GIF that shows all i18n-check checks failing"/>
     <p>All checks fail</p>
   </div>
 </div>
@@ -242,15 +242,15 @@ hideInToc: true
 
 # Thank you!
 
-- Questions, comments and suggestions are very welcome :)
+- Questions, comments and contributions are very welcome! :)
 
 <div class="flex justify-center space-x-24 py-6">
   <div class="flex flex-col items-center">
-   <img src="/i18nCheckQRCodeWhite.png" class="h-64" alt="QR code to GitHub:activist-org/i18n-check"/>
+   <img src="/i18n_check_repo_qr_code.png" class="h-64" alt="QR code to GitHub:activist-org/i18n-check"/>
    <p>GitHub:activist-org/i18n-check</p>
   </div>
   <div class="flex flex-col items-center">
-    <img src="/i18nCheckSlidesQRCode.png" class="h-64" alt="QR code to a markdown file for the slides"/>
+    <img src="/i18n_check_presentation_qr_code.png" class="h-64" alt="QR code to a markdown file for the slides"/>
     <p>Slides Content</p>
   </div>
 </div>
