@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <div align="center">
-  <a href="https://codeberg.org/activist-org/slides"><img src="https://codeberg.org/activist-org/slides/raw/branch/main/.github/resources/SlidesBanner.png" style="width: 100%; max-width: 100%;" alt="Slides logo"></a>
+  <a href="https://codeberg.org/activist-org/slides"><img src="https://codeberg.org/activist-org/slides/raw/branch/main/.forgejo/resources/SlidesBanner.png" style="width: 100%; max-width: 100%;" alt="Slides logo"></a>
 </div>
 
 [![issues](https://img.shields.io/gitea/issues/open/activist-org/slides?gitea_url=https://codeberg.org&label=%20&logo=codeberg&logoColor=ffffff)](https://codeberg.org/activist-org/slides/issues)
