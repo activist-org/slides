@@ -9,7 +9,7 @@ body:
       options:
         - label: I have searched all [open bug reports](https://codeberg.org/activist-org/slides/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
           required: true
-        - label: I agree to follow Slide's [Code of Conduct](.github/CODE_OF_CONDUCT.md)
+        - label: I agree to follow Slide's [Code of Conduct](https://codeberg.org/activist-org/slides/src/branch/main/.forgejo/CODE_OF_CONDUCT.md)
           required: true
   - type: textarea
     attributes:
