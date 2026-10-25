@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div align="center">
   <a href="https://codeberg.org/activist-org/slides"><img src="https://codeberg.org/activist-org/slides/raw/branch/main/.github/resources/SlidesGitHubBanner.png" style="width: 100%; max-width: 100%;" alt="Slides logo"></a>
 </div>
@@ -62,3 +64,5 @@ pnpm run dev
 ```
 
 Once finished you can visit <http://localhost:3000> to view the slides. Follow the prompts in your terminal to close them or do other actions.
+
+<sub><a href="#top">Back to top.</a></sub>

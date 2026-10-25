@@ -241,3 +241,5 @@ When making a contribution, adhering to the [GitHub flow](https://docs.github.co
 7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description.
 
 Thank you in advance for your contributions!
+
+<sub><a href="#top">Back to top.</a></sub>
